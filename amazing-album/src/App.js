@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import AlbumList from './albumListing/albumListing';
+import Navbar from './navbar/navbar';
 
 class App extends Component {
   state = {
@@ -15,6 +16,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <Navbar />
+
         {this.state.albums.map((albums, index) => {
           return <AlbumList
               capa={albums.capa}
