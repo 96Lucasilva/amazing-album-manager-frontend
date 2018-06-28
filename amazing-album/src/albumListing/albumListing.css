@@ -1,0 +1,33 @@
+.albumListing {
+  background-color: #EFEFEF;
+  font-size: 12px;
+  font-family: sans-serif;
+  border-radius: 8px;
+  width: 350px;
+  height: auto;
+  display: flex;
+  margin: 10px;
+}
+
+.albumListing-image {
+  padding: 25px;
+  justify-content: center;
+  align-content: center;
+}
+
+.albumListing-image img {
+  width: 100px;
+  height: auto;
+  border: 5px solid #000;
+}
+
+.albumListing-text {
+  padding: 25px;
+  justify-content: center;
+  align-content: center;
+}
+
+.albumTitle {
+  font-size: 18px;
+  font-weight: 600;
+}
