@@ -3,28 +3,35 @@
   position: fixed;
   top: 0;
   width: 100%;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .navbar ul {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   display: flex;
   list-style-type: none;
+  width: 1020px;
+  justify-content: center;
 }
 
 .navbar li {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar a {
+  color: #fff;
+  display: inline-block;
   padding: 10px 20px;
+  text-decoration: none;
 }
 
 .navbar li:hover {
   background-color: green;
 }
 
-.navbar a {
-  color: #fff;
-  text-decoration: none;
-}
-
-.navbar a:hover {
+.navbar li:hover a {
   color: yellow;
 }

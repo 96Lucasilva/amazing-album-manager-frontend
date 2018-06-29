@@ -3,6 +3,11 @@ import logo from './logo.svg';
 import './App.css';
 import AlbumList from './albumListing/albumListing';
 import Navbar from './navbar/navbar';
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faHome } from '@fortawesome/free-solid-svg-icons'
+
+library.add(faHome)
 
 class App extends Component {
   state = {
