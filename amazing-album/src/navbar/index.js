@@ -1,13 +1,12 @@
 import React from 'react';
-import './navbar.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import './style.css';
 
 const Navbar = () => {
   return (
     <div className="navbar">
       <ul>
         <li>
-          <a href="#"><FontAwesomeIcon icon="home" /></a>
+          <a href="#">Home</a>
         </li>
         <li>
           <a href="#">Meus Albuns</a>
