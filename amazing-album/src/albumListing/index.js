@@ -1,5 +1,5 @@
 import React from 'react';
-import './albumListing.css';
+import './style.css';
 
 const AlbumList = (props) => {
   return (
